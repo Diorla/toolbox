@@ -1,5 +1,5 @@
 /**
- * Used to remove a matching item from an array. Note, it will only remove a single item.
+ * Used to remove a matching item from an array.
  * It uses basic equality, hence would not work with array of objects
  * @param list an array of primitives
  * @param item a primitive
