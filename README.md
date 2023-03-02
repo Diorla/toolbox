@@ -2,6 +2,24 @@
 
 This is set of functions that I routinely use. It is not meant to be a new package (there's already so many of those), this is something for me to reuse.
 
+# Structure
+
+This is grouped based on the type of data that is returned, for example, the function below will be placed inside `/boolean`.
+```ts
+function example() {
+  return true;
+}
+```
+There will be the following folders corresponding to each data types
+
+- array
+- string
+- number
+- boolean
+- object
+
+Function is excluded at this moment, but may be added if there is any real reason to add one
+
 # TSDX User Guide
 
 Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
